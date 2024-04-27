@@ -1,1 +1,13 @@
 /* creator: giovanna rodriguez */
+
+* {
+  background-color: #38165a;
+  color: #ffffff;
+  font-family: 'Helvetica', sans-serif;
+};
+
+.con {
+  background-color: #a66be1;
+  height: 500px;
+  width: fit-content;
+};
