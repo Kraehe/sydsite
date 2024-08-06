@@ -1,20 +1,72 @@
-* {
-  color: white;
-  font-family: 'Courier New', monospace;
+html {
+    height: 100%;
 }
 body {
-  background-color: #f5e1b9;
-  margin: 15%; 
+    background-color: rgb(255, 254, 251);
+    margin: 0%;
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+    color: rgb(54, 27, 9);
+  }
+b{
+    color: rgb(137, 136, 235);
 }
-.container{
-  background-color: #e0c493;
-  border-radius: 15px;
-  padding: 10%;
+i{
+    height: 15%;
+    font-size: 80%;
+    opacity: 85%;
+    padding: 1%;
+    color:white;
+  }
+i:hover {
+    opacity: 100%
 }
+.banner{
+    height: 100vh;
+    background-image: url("imgs/SYD_BANNER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
 .title{
-  font-size: 20px;
-  font-weight: bold;
-}
+    height:  50%;
+    font-size: 150%;
+    font-weight: bold;
+    opacity: 80%;
+  }
 .hold{
-  opacity: 60%;
-}
+    color:rgb(255, 254, 251);
+    height: 35%;
+  }
+
+.desc {
+    font-size: 60%;
+    margin: 5%;
+  }
+#anchor {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    opacity: 100%; 
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none; 
+    cursor: pointer; 
+    border-radius: 150px; 
+    font-family: 'Courier New', monospace;
+    font-weight: 800;
+    font-size: 60px; 
+  }
+#anchor:hover {
+    background-color: rgba(0, 0, 0, 0);
+} 
+.fa-circle-up:hover {
+    color: rgb(252, 228, 149);
+ }
+  .fa-circle-up{
+    color: rgb(137, 136, 235); /* Text color */
+  }
+  

@@ -1,0 +1,20 @@
+* {
+  color: white;
+  font-family: 'Courier New', monospace;
+}
+body {
+  background-color: #f5e1b9;
+  margin: 15%; 
+}
+.container{
+  background-color: #e0c493;
+  border-radius: 15px;
+  padding: 10%;
+}
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.hold{
+  opacity: 60%;
+}
