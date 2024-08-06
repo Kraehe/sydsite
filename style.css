@@ -5,7 +5,7 @@ body {
     background-color: rgb(255, 254, 251);
     margin: 0%;
     font-family: 'Courier New', monospace;
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(54, 27, 9);
   }
 b{
@@ -13,7 +13,7 @@ b{
 }
 i{
     height: 15%;
-    font-size: 75%;
+    font-size: 130%;
     opacity: 85%;
     padding: 0.1%;
     color:white;
@@ -22,33 +22,41 @@ i:hover {
     opacity: 100%
 }
 .banner{
-    height: 100vh;
+    height: 110vh;
     background-image: url("imgs/SYD_BANNER.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
   }
+.nav{
+    background-color: rgba(255, 255, 255, 0.05);
+    position: fixed;
+    width: 100vw;
+  }
 .title{
-    height:  50%;
-    font-size: 150%;
-    font-weight: bold;
-    opacity: 80%;
+    font-size: 137%;
+    opacity: 100%;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 700;
+    font-style: normal;
   }
 .hold{
+    padding-top: 65vh;
     color:rgb(255, 254, 251);
-    height: 35%;
+    height: 12vh;
   }
 
 .desc {
+  height: 40%;
     font-size: 60%;
-    margin: 5%;
+    padding: 19%;
   }
 #anchor {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 15%;
+    right: 1%;
     z-index: 99;
     opacity: 100%; 
     border: none;
@@ -64,9 +72,16 @@ i:hover {
     background-color: rgba(0, 0, 0, 0);
 } 
 .fa-circle-up:hover {
-    color: rgb(252, 228, 149);
+  color: rgb(243, 211, 70);
  }
   .fa-circle-up{
-    color: rgb(137, 136, 235); /* Text color */
+    color: rgb(252, 228, 149);
   }
-  
+.foot {
+  height: 4vh;
+    background-color:rgb(137, 136, 235);
+    color: #ffffff;
+    font-size: 60%;
+    text-align: center;
+    padding: 5vh;
+}

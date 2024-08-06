@@ -1,9 +1,9 @@
 let anchor = document.getElementById("anchor");
-let screen = window.innerHeight 
+let screen = window.innerHeight ;
 
  document.addEventListener("DOMContentLoaded", function(event) { 
  let anchor = document.getElementById("anchor");
- let screen = window.innerHeight / 8
+ let screen = window.innerHeight / 2.8;
 
  window.onscroll = function() {scrollFunction()};
 
